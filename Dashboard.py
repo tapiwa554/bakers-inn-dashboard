@@ -22,7 +22,7 @@ st.markdown("""
 st.set_page_config(page_title="Bakers Inn Despatch Dashboard", layout="wide")
 
 # --- SIDEBAR ---
-st.sidebar.image("C:/Users/TAPIWA/Pictures/bakers Inn logo.png", use_container_width=True)
+st.sidebar.image("bakers Inn logo.png", use_container_width=True)
 page = st.sidebar.radio("Navigate", ["Summary Page", "Bread SKUs", "Biscuits & Loading Compliance"])
 
 # --- LOAD DATA ---
