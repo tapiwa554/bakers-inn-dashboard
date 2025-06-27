@@ -26,9 +26,9 @@ st.sidebar.image("bakers Inn logo.png", use_container_width=True)
 page = st.sidebar.radio("Navigate", ["Summary Page", "Bread SKUs", "Biscuits & Loading Compliance"])
 
 # --- LOAD DATA ---
-orders_df = pd.read_excel("C:/Users/TAPIWA/Downloads/JUNE 2025 ORDERS CONSOLIDATED.xlsx", sheet_name="Orders")
-despatch_df = pd.read_excel("C:/Users/TAPIWA/Downloads/2025 June Superlinx Daily Despatch Tracker.xlsx", sheet_name="Template")
-date_index_df = pd.read_excel("C:/Users/TAPIWA/Downloads/DATE INDEX.xlsx", sheet_name="Sheet2")
+orders_df = pd.read_excel("JUNE 2025 ORDERS CONSOLIDATED.xlsx", sheet_name="Orders")
+despatch_df = pd.read_excel("2025 June Superlinx Daily Despatch Tracker.xlsx", sheet_name="Template")
+date_index_df = pd.read_excel("DATE INDEX.xlsx", sheet_name="Sheet2")
 
 # --- DATA CLEANING ---
 for df in [orders_df, despatch_df, date_index_df]:
